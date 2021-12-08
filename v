@@ -208,7 +208,7 @@ function tap:addtap(text)
 
     TextLabel_Tap.Parent = TextButton_Tap
     TextLabel_Tap.Name = "TextLabel_Tap"
-    TextLabel_Tap.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabel_Tap.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
     TextLabel_Tap.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabel_Tap.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabel_Tap.Position = UDim2.new(0.52, 0, 0.8, 0)
@@ -375,7 +375,7 @@ function page:addpage()
     
     Page.Name = "Page"
     Page.Parent = MainPage
-    Page.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    Page.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
     Page.BorderSizePixel = 0
     Page.Position = UDim2.new(0.51645571, 0, 0.0526315793, 0)
     Page.Size = UDim2.new(0, 178, 0, 262)
@@ -454,7 +454,7 @@ function ems:Button(text,callback)
 
     TextLabel_emsTextButton.Parent = emsTextButton
     TextLabel_emsTextButton.Name = "TextLabel_emsTextButton"
-    TextLabel_emsTextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabel_emsTextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
     TextLabel_emsTextButton.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabel_emsTextButton.Position = UDim2.new(0.5, 0, 0.5, 0)
     TextLabel_emsTextButton.Size = UDim2.new(0, 0, 0, 0)
@@ -531,7 +531,7 @@ function ems:Button1(text,callback)
     
     ToggleFrame1.Name = "ToggleFrame"
     ToggleFrame1.Parent = ScolPage2
-    ToggleFrame1.BackgroundColor3 = Color3.fromRGB(0, 0 ,0)
+    ToggleFrame1.BackgroundColor3 = Color3.fromRGB(255, 0 ,95)
     ToggleFrame1.BorderSizePixel = 0
     ToggleFrame1.BackgroundTransparency = 0
     ToggleFrame1.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -672,7 +672,7 @@ function  ems:Toggle(text,de,callback)
     local ToggleButton2 = Instance.new("TextButton")
 
     ToggleButton2.Parent = ToggleFrame
-    ToggleButton2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    ToggleButton2.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
     ToggleButton2.BackgroundTransparency = 1
     ToggleButton2.AnchorPoint = Vector2.new(0.5, 0.5)
     ToggleButton2.Position = UDim2.new(1, 0, 0.45, 0)
@@ -1650,7 +1650,7 @@ function ems:Ti(text)
     local  lineframe = Instance.new("TextLabel")
                   
     lineframe.Parent = tiframe
-    lineframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    lineframe.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
     lineframe.BorderColor3 = Color3.fromRGB(0, 255, 255)
     lineframe.BackgroundTransparency = 0
     lineframe.AnchorPoint = Vector2.new(0.6, 0.5)
@@ -1669,7 +1669,7 @@ function ems:Ti(text)
     local  lineframe2 = Instance.new("TextLabel")
                   
     lineframe2.Parent = tiframe
-    lineframe2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    lineframe2.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
     lineframe2.BorderColor3 = Color3.fromRGB(0, 255, 255)
     lineframe2.BackgroundTransparency = 0
     lineframe2.AnchorPoint = Vector2.new(0.5, 0.5)
