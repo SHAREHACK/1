@@ -689,7 +689,7 @@ function  ems:Toggle(text,de,callback)
 
     TextLabelToggle.Parent = ToggleButton
     TextLabelToggle.Name = "TextLabelToggle"
-    TextLabelToggle.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    TextLabelToggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     TextLabelToggle.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabelToggle.Position = UDim2.new(0.64, 0, 0.4, 0)
     TextLabelToggle.Size =  UDim2.new(0, 150, 0, 40)
@@ -1396,7 +1396,7 @@ function ems:Slder(text,min,max,de,callback)
 
     TalabelSlider.Parent = SliderFrame
     TalabelSlider.Name = "TalabelSlider"
-    TalabelSlider.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    TalabelSlider.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     TalabelSlider.BackgroundTransparency = 1
     TalabelSlider.AnchorPoint = Vector2.new(0.5, 0.5)
     TalabelSlider.Position = UDim2.new(0.5, 0, 0.2, 0)
@@ -1650,7 +1650,7 @@ function ems:Ti(text)
     local  lineframe = Instance.new("TextLabel")
                   
     lineframe.Parent = tiframe
-    lineframe.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    lineframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     lineframe.BorderColor3 = Color3.fromRGB(0, 255, 255)
     lineframe.BackgroundTransparency = 0
     lineframe.AnchorPoint = Vector2.new(0.6, 0.5)
@@ -1669,7 +1669,7 @@ function ems:Ti(text)
     local  lineframe2 = Instance.new("TextLabel")
                   
     lineframe2.Parent = tiframe
-    lineframe2.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    lineframe2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     lineframe2.BorderColor3 = Color3.fromRGB(0, 255, 255)
     lineframe2.BackgroundTransparency = 0
     lineframe2.AnchorPoint = Vector2.new(0.5, 0.5)
