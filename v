@@ -208,7 +208,8 @@ function tap:addtap(text)
 
     TextLabel_Tap.Parent = TextButton_Tap
     TextLabel_Tap.Name = "TextLabel_Tap"
-    TextLabel_Tap.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    TextLabel_Tap.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabel_Tap.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabel_Tap.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabel_Tap.Position = UDim2.new(0.52, 0, 0.8, 0)
     TextLabel_Tap.Size = UDim2.new(0, 0, 0, 0)
@@ -374,7 +375,7 @@ function page:addpage()
     
     Page.Name = "Page"
     Page.Parent = MainPage
-    Page.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    Page.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     Page.BorderSizePixel = 0
     Page.Position = UDim2.new(0.51645571, 0, 0.0526315793, 0)
     Page.Size = UDim2.new(0, 178, 0, 262)
@@ -453,7 +454,7 @@ function ems:Button(text,callback)
 
     TextLabel_emsTextButton.Parent = emsTextButton
     TextLabel_emsTextButton.Name = "TextLabel_emsTextButton"
-    TextLabel_emsTextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    TextLabel_emsTextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     TextLabel_emsTextButton.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabel_emsTextButton.Position = UDim2.new(0.5, 0, 0.5, 0)
     TextLabel_emsTextButton.Size = UDim2.new(0, 0, 0, 0)
@@ -671,7 +672,7 @@ function  ems:Toggle(text,de,callback)
     local ToggleButton2 = Instance.new("TextButton")
 
     ToggleButton2.Parent = ToggleFrame
-    ToggleButton2.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    ToggleButton2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     ToggleButton2.BackgroundTransparency = 1
     ToggleButton2.AnchorPoint = Vector2.new(0.5, 0.5)
     ToggleButton2.Position = UDim2.new(1, 0, 0.45, 0)
@@ -728,7 +729,7 @@ function  ems:Toggle(text,de,callback)
 
     TextButton_2_Toggle.Parent = ToggleButton2
     TextButton_2_Toggle.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
-    TextButton_2_Toggle.BorderColor3 = Color3.fromRGB(249, 53, 139)
+    TextButton_2_Toggle.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextButton_2_Toggle.BorderSizePixel = 0
     TextButton_2_Toggle.AnchorPoint = Vector2.new(0.5, 0.5)
     TextButton_2_Toggle.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -758,7 +759,7 @@ function  ems:Toggle(text,de,callback)
 
     TextButton_3_Toggle.Parent = TextButton_2_Toggle
     TextButton_3_Toggle.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-    TextButton_3_Toggle.BorderColor3 = Color3.fromRGB(255, 0, 95)
+    TextButton_3_Toggle.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextButton_3_Toggle.BorderSizePixel = 0
     TextButton_3_Toggle.AnchorPoint = Vector2.new(0.5, 0.5)
     TextButton_3_Toggle.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -914,7 +915,8 @@ function ems:DropDown(text,text2,list,callback)
 
     TextLabelDrop.Parent = DropFrame
     TextLabelDrop.Name = "TextLabelDrop"
-    TextLabelDrop.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    TextLabelDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabelDrop.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabelDrop.BackgroundTransparency = 1
     TextLabelDrop.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabelDrop.Position = UDim2.new(0.5, 0, 0.2, 0)
@@ -947,7 +949,8 @@ function ems:DropDown(text,text2,list,callback)
     
     FrameDrop.Name = "FrameDrop"
     FrameDrop.Parent = DropFrame
-    FrameDrop.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    FrameDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    FrameDrop.BorderColor3 = Color3.fromRGB(0, 255, 255)
     FrameDrop.BorderSizePixel = 0
     FrameDrop.BackgroundTransparency = 1
     FrameDrop.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -959,7 +962,8 @@ function ems:DropDown(text,text2,list,callback)
     local DropButton = Instance.new("TextButton")
 
     DropButton.Parent = FrameDrop
-    DropButton.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    DropButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    DropButton.BorderColor3 = Color3.fromRGB(0, 255, 255)
     DropButton.BackgroundTransparency = 1
     DropButton.AnchorPoint = Vector2.new(0.5, 0.5)
     DropButton.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -977,7 +981,8 @@ function ems:DropDown(text,text2,list,callback)
 
     TextLabelDrop2.Parent = DropButton
     TextLabelDrop2.Name = "TextLabelDrop"
-    TextLabelDrop2.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    TextLabelDrop2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabelDrop2.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabelDrop2.BackgroundTransparency = 1
     TextLabelDrop2.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabelDrop2.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -1645,7 +1650,8 @@ function ems:Ti(text)
     local  lineframe = Instance.new("TextLabel")
                   
     lineframe.Parent = tiframe
-    lineframe.BackgroundColor3 = Color3.fromRGB(255, 0 ,95)
+    lineframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    lineframe.BorderColor3 = Color3.fromRGB(0, 255, 255)
     lineframe.BackgroundTransparency = 0
     lineframe.AnchorPoint = Vector2.new(0.6, 0.5)
     lineframe.Position = UDim2.new(0., 0, 0.4, 0)
@@ -1658,12 +1664,13 @@ function ems:Ti(text)
 
 
 
-    
+
 
     local  lineframe2 = Instance.new("TextLabel")
                   
     lineframe2.Parent = tiframe
-    lineframe2.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    lineframe2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    lineframe2.BorderColor3 = Color3.fromRGB(0, 255, 255)
     lineframe2.BackgroundTransparency = 0
     lineframe2.AnchorPoint = Vector2.new(0.5, 0.5)
     lineframe2.Position = UDim2.new(1, 0, 0.4, 0)
