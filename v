@@ -1404,6 +1404,23 @@ function ems:Slder(text,min,max,de,callback)
     TalabelSlider.ClipsDescendants = true 
     TalabelSlider.TextXAlignment = Enum.TextXAlignment.Left
 
+
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', TalabelSlider)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
+
+
+
+
+
        
     local ValueFrame = Instance.new("Frame")
 
@@ -1639,6 +1656,10 @@ function ems:Ti(text)
     lineframe.TextSize = 13.000
     lineframe.Text = ""
 
+
+
+    
+
     local  lineframe2 = Instance.new("TextLabel")
                   
     lineframe2.Parent = tiframe
@@ -1684,6 +1705,26 @@ function ems:Label(text)
     Labelxd.Text = tostring(text)
     Labelxd.TextColor3 = Color3.fromRGB(255, 255, 255)
     Labelxd.TextSize = 12.000
+
+
+
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', Labelxd)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
+
+
+
+
+
+
 
     function  labelfuc:Change(text2)
         Labelxd.Text = tostring(text2)
