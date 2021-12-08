@@ -1027,7 +1027,7 @@ function ems:DropDown(text,text2,list,callback)
     local TextButton_Dropdown = Instance.new("TextButton")
 
     TextButton_Dropdown.Parent = DropButton
-    TextButton_Dropdown.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    TextButton_Dropdown.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     TextButton_Dropdown.BorderSizePixel = 0
     TextButton_Dropdown.Size = UDim2.new(0, 22, 0, 24)
     TextButton_Dropdown.Font = Enum.Font.SourceSans
@@ -1650,7 +1650,7 @@ function ems:Ti(text)
     local  lineframe = Instance.new("TextLabel")
                   
     lineframe.Parent = tiframe
-    lineframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    lineframe.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
     lineframe.BorderColor3 = Color3.fromRGB(0, 255, 255)
     lineframe.BackgroundTransparency = 0
     lineframe.AnchorPoint = Vector2.new(0.6, 0.5)
@@ -1669,7 +1669,7 @@ function ems:Ti(text)
     local  lineframe2 = Instance.new("TextLabel")
                   
     lineframe2.Parent = tiframe
-    lineframe2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    lineframe2.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
     lineframe2.BorderColor3 = Color3.fromRGB(0, 255, 255)
     lineframe2.BackgroundTransparency = 0
     lineframe2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1694,6 +1694,23 @@ function ems:Ti(text)
     lineframe3.Text = tostring(text)
     lineframe3.TextColor3 = Color3.fromRGB(255, 100, 150)
     lineframe3.TextSize = 12.000
+
+
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', lineframe3)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
+
+
+
+
 end
 
 function ems:Label(text)
