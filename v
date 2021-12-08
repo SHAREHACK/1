@@ -463,6 +463,22 @@ function ems:Button(text,callback)
     TextLabel_emsTextButton.TextSize = 10.000
     TextLabel_emsTextButton.BorderSizePixel = 0
 
+
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', TextLabel_emsTextButton)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
+
+
+
+
     local MheeFrameStroke = Instance.new("UIStroke",ToggleFrame)
                     
     MheeFrameStroke.Thickness = 1
@@ -555,6 +571,26 @@ function ems:Button1(text,callback)
     TextLabel_emsTextButton1.TextColor3 = Color3.fromRGB(255, 255 ,255)
     TextLabel_emsTextButton1.TextSize = 10.000
     TextLabel_emsTextButton1.BorderSizePixel = 0
+
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', TextLabel_emsTextButton1)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
+
+
+
+
+
+
+
+
 
     local MheeFrameStroke1 = Instance.new("UIStroke",ToggleFrame1)
                     
@@ -667,6 +703,27 @@ function  ems:Toggle(text,de,callback)
     local resizetext2 =  Instance.new("UITextSizeConstraint",TextLabelToggle)
     resizetext2.MaxTextSize = 11
     
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', TextLabelToggle)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
+
+
+
+
+
+
+
+
+
+
     local TextButton_2_Toggle = Instance.new("TextButton")
 
     TextButton_2_Toggle.Parent = ToggleButton2
@@ -681,6 +738,20 @@ function  ems:Toggle(text,de,callback)
     TextButton_2_Toggle.TextColor3 = Color3.fromRGB(0, 0, 0)
     TextButton_2_Toggle.TextSize = 12.000
     TextButton_2_Toggle.AutoButtonColor = false 
+
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', TextButton_2_Toggle)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
+
+    
 
     local TextButton_3_Toggle = Instance.new("TextButton")
 
@@ -697,6 +768,23 @@ function  ems:Toggle(text,de,callback)
     TextButton_3_Toggle.TextColor3 = Color3.fromRGB(0, 0, 0)
     TextButton_3_Toggle.TextSize = 12.000
     TextButton_3_Toggle.AutoButtonColor = false 
+
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', TextButton_3_Toggle)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
+
+
+
+
+
 
     local ImageLabel_Toggle = Instance.new("ImageButton")
 
@@ -838,6 +926,23 @@ function ems:DropDown(text,text2,list,callback)
     TextLabelDrop.BorderSizePixel = 0
     TextLabelDrop.ClipsDescendants = true 
 
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', TextLabelDrop)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
+
+
+
+
+
+
     local FrameDrop = Instance.new("Frame")
     
     FrameDrop.Name = "FrameDrop"
@@ -884,6 +989,22 @@ function ems:DropDown(text,text2,list,callback)
     TextLabelDrop2.BorderSizePixel = 0
     TextLabelDrop2.ClipsDescendants = true 
 
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', TextLabelDrop2)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
+
+
+
+
+
     local DropConer = Instance.new("UICorner")
             
     DropConer.CornerRadius = UDim.new(0, 4)
@@ -912,6 +1033,26 @@ function ems:DropDown(text,text2,list,callback)
     TextButton_Dropdown.AnchorPoint = Vector2.new(0.5, 0.5)
     TextButton_Dropdown.Position = UDim2.new(0.91, 0, 0.5, 0)
     
+
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', TextButton_Dropdown)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
+
+
+
+
+
+
+
+
     local DropConer2 = Instance.new("UICorner")
             
     DropConer2.CornerRadius = UDim.new(0, 4)
