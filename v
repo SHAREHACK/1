@@ -208,7 +208,7 @@ function tap:addtap(text)
 
     TextLabel_Tap.Parent = TextButton_Tap
     TextLabel_Tap.Name = "TextLabel_Tap"
-    TextLabel_Tap.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    TextLabel_Tap.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     TextLabel_Tap.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabel_Tap.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabel_Tap.Position = UDim2.new(0.52, 0, 0.8, 0)
@@ -454,7 +454,7 @@ function ems:Button(text,callback)
 
     TextLabel_emsTextButton.Parent = emsTextButton
     TextLabel_emsTextButton.Name = "TextLabel_emsTextButton"
-    TextLabel_emsTextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    TextLabel_emsTextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     TextLabel_emsTextButton.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabel_emsTextButton.Position = UDim2.new(0.5, 0, 0.5, 0)
     TextLabel_emsTextButton.Size = UDim2.new(0, 0, 0, 0)
@@ -915,7 +915,7 @@ function ems:DropDown(text,text2,list,callback)
 
     TextLabelDrop.Parent = DropFrame
     TextLabelDrop.Name = "TextLabelDrop"
-    TextLabelDrop.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    TextLabelDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     TextLabelDrop.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabelDrop.BackgroundTransparency = 1
     TextLabelDrop.AnchorPoint = Vector2.new(0.5, 0.5)
