@@ -191,6 +191,17 @@ function tap:addtap(text)
     TextButton_Tap.TextWrapped = true
     TextButton_Tap.Text = text
     
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', TextButton_Tap)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
     
 
     local TextLabel_Tap = Instance.new("TextLabel") 
@@ -208,6 +219,19 @@ function tap:addtap(text)
     TextLabel_Tap.BorderSizePixel = 0
 
 
+    local function PUMY_fake_script() -- Title.LocalScript 
+        local script = Instance.new('LocalScript', TextLabel_Tap)
+    
+        while true do
+            for c = 1, 360, 1 do
+                wait(0)
+                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
+            end
+        end
+    end
+    coroutine.wrap(PUMY_fake_script)()
+
+--------
 
     local MainFramePage = Instance.new("Frame")
 
