@@ -375,7 +375,7 @@ function page:addpage()
     
     Page.Name = "Page"
     Page.Parent = MainPage
-    Page.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    Page.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     Page.BorderSizePixel = 0
     Page.Position = UDim2.new(0.51645571, 0, 0.0526315793, 0)
     Page.Size = UDim2.new(0, 178, 0, 262)
