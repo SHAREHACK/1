@@ -208,7 +208,7 @@ function tap:addtap(text)
 
     TextLabel_Tap.Parent = TextButton_Tap
     TextLabel_Tap.Name = "TextLabel_Tap"
-    TextLabel_Tap.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabel_Tap.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
     TextLabel_Tap.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabel_Tap.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabel_Tap.Position = UDim2.new(0.52, 0, 0.8, 0)
