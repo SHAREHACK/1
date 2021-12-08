@@ -375,7 +375,7 @@ function page:addpage()
     
     Page.Name = "Page"
     Page.Parent = MainPage
-    Page.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    Page.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
     Page.BorderSizePixel = 0
     Page.Position = UDim2.new(0.51645571, 0, 0.0526315793, 0)
     Page.Size = UDim2.new(0, 178, 0, 262)
@@ -1458,7 +1458,7 @@ function ems:Slder(text,min,max,de,callback)
 
     MainValue.Name = "MainValue"
     MainValue.Parent = SecValue
-    MainValue.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    MainValue.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     MainValue.BorderSizePixel = 0
     MainValue.BackgroundTransparency = 0
     -- MainValue.AnchorPoint = Vector2.new(0.5, 0.5)
