@@ -84,7 +84,7 @@ local create = {}
 
 function create:Win()
 
-    local fs = false 
+    
     local currentservertoggled = ""
     local Main = Instance.new("Frame")
         
