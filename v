@@ -1458,7 +1458,7 @@ function ems:Slder(text,min,max,de,callback)
 
     MainValue.Name = "MainValue"
     MainValue.Parent = SecValue
-    MainValue.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    MainValue.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
     MainValue.BorderSizePixel = 0
     MainValue.BackgroundTransparency = 0
     -- MainValue.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1650,7 +1650,7 @@ function ems:Ti(text)
     local  lineframe = Instance.new("TextLabel")
                   
     lineframe.Parent = tiframe
-    lineframe.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    lineframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     lineframe.BorderColor3 = Color3.fromRGB(0, 255, 255)
     lineframe.BackgroundTransparency = 0
     lineframe.AnchorPoint = Vector2.new(0.6, 0.5)
