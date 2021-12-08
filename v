@@ -962,7 +962,7 @@ function ems:DropDown(text,text2,list,callback)
     local DropButton = Instance.new("TextButton")
 
     DropButton.Parent = FrameDrop
-    DropButton.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    DropButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     DropButton.BorderColor3 = Color3.fromRGB(0, 255, 255)
     DropButton.BackgroundTransparency = 1
     DropButton.AnchorPoint = Vector2.new(0.5, 0.5)
