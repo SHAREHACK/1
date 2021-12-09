@@ -721,7 +721,7 @@ function  ems:Toggle(text,de,callback)
     local TextButton_2_Toggle = Instance.new("TextButton")
 
     TextButton_2_Toggle.Parent = ToggleButton2
-    TextButton_2_Toggle.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    TextButton_2_Toggle.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
     TextButton_2_Toggle.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextButton_2_Toggle.BorderSizePixel = 0
     TextButton_2_Toggle.AnchorPoint = Vector2.new(0.5, 0.5)
