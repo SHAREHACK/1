@@ -953,6 +953,7 @@ function ems:DropDown(text,text2,list,callback)
     DropButton.Parent = FrameDrop
     DropButton.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
     DropButton.BorderColor3 = Color3.fromRGB(0, 255, 255)
+    DropButton.BorderSizePixel = 1
     DropButton.BackgroundTransparency = 1
     DropButton.AnchorPoint = Vector2.new(0.5, 0.5)
     DropButton.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -972,6 +973,7 @@ function ems:DropDown(text,text2,list,callback)
     TextLabelDrop2.Name = "TextLabelDrop"
     TextLabelDrop2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     TextLabelDrop2.BorderColor3 = Color3.fromRGB(0, 255, 255)
+    TextLabelDrop2.BorderSizePixel = 1
     TextLabelDrop2.BackgroundTransparency = 1
     TextLabelDrop2.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabelDrop2.Position = UDim2.new(0.5, 0, 0.5, 0)
