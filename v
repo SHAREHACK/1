@@ -938,7 +938,7 @@ function ems:DropDown(text,text2,list,callback)
     FrameDrop.Parent = DropFrame
     FrameDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     FrameDrop.BorderColor3 = Color3.fromRGB(0, 255, 255)
-    FrameDrop.BorderSizePixel = 0
+    FrameDrop.BorderSizePixel = 1
     FrameDrop.BackgroundTransparency = 1
     FrameDrop.AnchorPoint = Vector2.new(0.5, 0.5)
     FrameDrop.Position = UDim2.new(0.5, 0, 0.75, 0)
