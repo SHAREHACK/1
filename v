@@ -672,7 +672,7 @@ function  ems:Toggle(text,de,callback)
     local ToggleButton2 = Instance.new("TextButton")
 
     ToggleButton2.Parent = ToggleFrame
-    ToggleButton2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    ToggleButton2.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
     ToggleButton2.BackgroundTransparency = 1
     ToggleButton2.AnchorPoint = Vector2.new(0.5, 0.5)
     ToggleButton2.Position = UDim2.new(1, 0, 0.45, 0)
@@ -915,7 +915,7 @@ function ems:DropDown(text,text2,list,callback)
 
     TextLabelDrop.Parent = DropFrame
     TextLabelDrop.Name = "TextLabelDrop"
-    TextLabelDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabelDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
     TextLabelDrop.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabelDrop.BackgroundTransparency = 1
     TextLabelDrop.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -949,7 +949,7 @@ function ems:DropDown(text,text2,list,callback)
     
     FrameDrop.Name = "FrameDrop"
     FrameDrop.Parent = DropFrame
-    FrameDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    FrameDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
     FrameDrop.BorderColor3 = Color3.fromRGB(0, 255, 255)
     FrameDrop.BorderSizePixel = 0
     FrameDrop.BackgroundTransparency = 1
@@ -1144,7 +1144,7 @@ function ems:DropDown(text,text2,list,callback)
     listDropButton.Size = UDim2.new(0, 155, 0, 24)
     listDropButton.Font = Enum.Font.GothamSemibold
     listDropButton.Text = tostring(v)
-    listDropButton.TextColor3 = Color3.fromRGB(255, 20, 95)
+    listDropButton.TextColor3 = Color3.fromRGB(0, 255, 255)
     listDropButton.TextSize = 11.000
     listDropButton.AutoButtonColor = false 
     listDropButton.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1692,7 +1692,7 @@ function ems:Ti(text)
     lineframe3.Size = UDim2.new(0, 130, 0, 20)
     lineframe3.Font = Enum.Font.GothamSemibold
     lineframe3.Text = tostring(text)
-    lineframe3.TextColor3 = Color3.fromRGB(255, 100, 150)
+    lineframe3.TextColor3 = Color3.fromRGB(0, 255, 255)
     lineframe3.TextSize = 12.000
 
 
