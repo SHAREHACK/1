@@ -1071,7 +1071,8 @@ function ems:DropDown(text,text2,list,callback)
     ListFrame.Name = "ListFrame"
     ListFrame.Parent = ScolPage2
     ListFrame.BackgroundColor3 = Color3.fromRGB(0, 255 ,255)
-    ListFrame.BorderSizePixel = 0
+    ListFrame.BorderColor3 = Color3.fromRGB(0, 255, 255)
+    ListFrame.BorderSizePixel = 1
     ListFrame.BackgroundTransparency = 1
     ListFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
     ListFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
