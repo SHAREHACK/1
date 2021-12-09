@@ -904,6 +904,7 @@ function ems:DropDown(text,text2,list,callback)
     TextLabelDrop.Parent = DropFrame
     TextLabelDrop.Name = "TextLabelDrop"
     TextLabelDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabelDrop.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabelDrop.BackgroundTransparency = 1
     TextLabelDrop.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabelDrop.Position = UDim2.new(0.5, 0, 0.2, 0)
