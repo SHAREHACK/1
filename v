@@ -794,7 +794,7 @@ function  ems:Toggle(text,de,callback)
     ImageLabel_Toggle.BackgroundTransparency = 1
     ImageLabel_Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     ImageLabel_Toggle.Size = UDim2.new(0, 0, 0, 0)
-    ImageLabel_Toggle.Image = "rbxassetid://5880482965"
+    ImageLabel_Toggle.Image = "rbxassetid://6475688249"
     ImageLabel_Toggle.AnchorPoint = Vector2.new(0.5, 0.5)
     ImageLabel_Toggle.Position = UDim2.new(0.47, 0, 0.5, 0)
 
@@ -902,7 +902,7 @@ function ems:DropDown(text,text2,list,callback)
 
     DropFrame.Name = "DropFrame"
     DropFrame.Parent = ScolPage2
-    DropFrame.BackgroundColor3 = Color3.fromRGB(0, 255 ,255)
+    DropFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
     DropFrame.BorderSizePixel = 0
     DropFrame.BackgroundTransparency = 1
     DropFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
