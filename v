@@ -689,7 +689,7 @@ function  ems:Toggle(text,de,callback)
 
     TextLabelToggle.Parent = ToggleButton
     TextLabelToggle.Name = "TextLabelToggle"
-    TextLabelToggle.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+    TextLabelToggle.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
     TextLabelToggle.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabelToggle.Position = UDim2.new(0.64, 0, 0.4, 0)
     TextLabelToggle.Size =  UDim2.new(0, 150, 0, 40)
