@@ -587,12 +587,6 @@ function ems:Button1(text,callback)
 
 
 
-
-
-
-
-
-
     local MheeFrameStroke1 = Instance.new("UIStroke",ToggleFrame1)
                     
     MheeFrameStroke1.Thickness = 1
@@ -1042,10 +1036,6 @@ function ems:DropDown(text,text2,list,callback)
         end
     end
     coroutine.wrap(PUMY_fake_script)()
-
-
-
-
 
 
 
@@ -1700,11 +1690,6 @@ function ems:Ti(text)
     end
     coroutine.wrap(PUMY_fake_script)()
 
-
-
-
-end
-
 function ems:Label(text)
 
     local labelfuc = {}
@@ -1735,10 +1720,6 @@ function ems:Label(text)
         end
     end
     coroutine.wrap(PUMY_fake_script)()
-
-
-
-
 
 
 
