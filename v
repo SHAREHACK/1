@@ -1015,7 +1015,8 @@ function ems:DropDown(text,text2,list,callback)
 
     TextButton_Dropdown.Parent = DropButton
     TextButton_Dropdown.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-    TextButton_Dropdown.BorderSizePixel = 0
+    TextButton_Dropdown.BorderColor3 = Color3.fromRGB(0, 255, 255)
+    TextButton_Dropdown.BorderSizePixel = 1
     TextButton_Dropdown.Size = UDim2.new(0, 22, 0, 24)
     TextButton_Dropdown.Font = Enum.Font.SourceSans
     TextButton_Dropdown.Text = "  "
@@ -1127,8 +1128,7 @@ function ems:DropDown(text,text2,list,callback)
 
     listDropButton.Parent = ScolPage_list
     listDropButton.BackgroundColor3 = Color3.fromRGB(15, 15 ,15)
-    listDropButton.BorderColor3 = Color3.fromRGB(0, 255, 255)
-    listDropButton.BorderSizePixel = 1
+    listDropButton.BorderSizePixel = 0
     listDropButton.Size = UDim2.new(0, 155, 0, 24)
     listDropButton.Font = Enum.Font.GothamSemibold
     listDropButton.Text = tostring(v)
