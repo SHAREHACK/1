@@ -905,7 +905,7 @@ function ems:DropDown(text,text2,list,callback)
 
     DropFrame.Name = "DropFrame"
     DropFrame.Parent = ScolPage2
-    DropFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
+    DropFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     DropFrame.BorderSizePixel = 0
     DropFrame.BackgroundTransparency = 1
     DropFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -918,7 +918,7 @@ function ems:DropDown(text,text2,list,callback)
 
     TextLabelDrop.Parent = DropFrame
     TextLabelDrop.Name = "TextLabelDrop"
-    TextLabelDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
+    TextLabelDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     TextLabelDrop.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabelDrop.BackgroundTransparency = 1
     TextLabelDrop.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -952,7 +952,7 @@ function ems:DropDown(text,text2,list,callback)
     
     FrameDrop.Name = "FrameDrop"
     FrameDrop.Parent = DropFrame
-    FrameDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
+    FrameDrop.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
     FrameDrop.BorderColor3 = Color3.fromRGB(0, 255, 255)
     FrameDrop.BorderSizePixel = 0
     FrameDrop.BackgroundTransparency = 1
@@ -984,7 +984,7 @@ function ems:DropDown(text,text2,list,callback)
 
     TextLabelDrop2.Parent = DropButton
     TextLabelDrop2.Name = "TextLabelDrop"
-    TextLabelDrop2.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
+    TextLabelDrop2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     TextLabelDrop2.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabelDrop2.BackgroundTransparency = 1
     TextLabelDrop2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1030,7 +1030,7 @@ function ems:DropDown(text,text2,list,callback)
     local TextButton_Dropdown = Instance.new("TextButton")
 
     TextButton_Dropdown.Parent = DropButton
-    TextButton_Dropdown.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
+    TextButton_Dropdown.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
     TextButton_Dropdown.BorderSizePixel = 0
     TextButton_Dropdown.Size = UDim2.new(0, 22, 0, 24)
     TextButton_Dropdown.Font = Enum.Font.SourceSans
