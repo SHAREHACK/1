@@ -943,7 +943,7 @@ function ems:DropDown(text,text2,list,callback)
     FrameDrop.AnchorPoint = Vector2.new(0.5, 0.5)
     FrameDrop.Position = UDim2.new(0.5, 0, 0.75, 0)
     FrameDrop.Size = UDim2.new(0, 155, 0, 27)
-    FrameDrop.BackgroundTransparency = 0
+    FrameDrop.BackgroundTransparency = 1
     FrameDrop.ClipsDescendants = true 
 
     local DropButton = Instance.new("TextButton")
