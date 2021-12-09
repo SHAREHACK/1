@@ -533,7 +533,7 @@ function ems:Button1(text,callback)
     ToggleFrame1.Parent = ScolPage2
     ToggleFrame1.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     ToggleFrame1.BorderSizePixel = 0
-    ToggleFrame1.BackgroundTransparency = 0
+    ToggleFrame1.BackgroundTransparency = 1
     ToggleFrame1.Position = UDim2.new(0.5, 0, 0.5, 0)
     ToggleFrame1.Size = UDim2.new(0, 155, 0, 22)
 
