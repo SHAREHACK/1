@@ -191,17 +191,6 @@ function tap:addtap(text)
     TextButton_Tap.TextWrapped = true
     TextButton_Tap.Text = text
     
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', TextButton_Tap)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
     
 
     local TextLabel_Tap = Instance.new("TextLabel") 
@@ -219,18 +208,6 @@ function tap:addtap(text)
     TextLabel_Tap.TextSize = 14.000
     TextLabel_Tap.BorderSizePixel = 0
 
-
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', TextLabel_Tap)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
 
 --------
 
@@ -465,18 +442,6 @@ function ems:Button(text,callback)
     TextLabel_emsTextButton.BorderSizePixel = 0
 
 
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', TextLabel_emsTextButton)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
-
 
 
 
@@ -573,17 +538,9 @@ function ems:Button1(text,callback)
     TextLabel_emsTextButton1.TextSize = 10.000
     TextLabel_emsTextButton1.BorderSizePixel = 0
 
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', TextLabel_emsTextButton1)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
+
+
+
 
 
 
@@ -697,18 +654,6 @@ function  ems:Toggle(text,de,callback)
     TextLabelToggle.TextXAlignment = Enum.TextXAlignment.Left
     local resizetext2 =  Instance.new("UITextSizeConstraint",TextLabelToggle)
     resizetext2.MaxTextSize = 11
-    
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', TextLabelToggle)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
 
 
 
@@ -727,19 +672,6 @@ function  ems:Toggle(text,de,callback)
     TextButton_2_Toggle.TextSize = 12.000
     TextButton_2_Toggle.AutoButtonColor = false 
 
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', TextButton_2_Toggle)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
-
-    local TextButton_3_Toggle = Instance.new("TextButton")
 
 
     TextButton_3_Toggle.Parent = TextButton_2_Toggle
@@ -755,17 +687,6 @@ function  ems:Toggle(text,de,callback)
     TextButton_3_Toggle.TextSize = 12.000
     TextButton_3_Toggle.AutoButtonColor = false 
 
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', TextButton_3_Toggle)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
 
 
     local ImageLabel_Toggle = Instance.new("ImageButton")
@@ -911,21 +832,6 @@ function ems:DropDown(text,text2,list,callback)
     TextLabelDrop.BorderSizePixel = 0
     TextLabelDrop.ClipsDescendants = true 
 
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', TextLabelDrop)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
-
-
-
-
 
 
     local FrameDrop = Instance.new("Frame")
@@ -979,18 +885,6 @@ function ems:DropDown(text,text2,list,callback)
     TextLabelDrop2.BorderSizePixel = 0
     TextLabelDrop2.ClipsDescendants = true 
 
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', TextLabelDrop2)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
-
 
 
 
@@ -1025,17 +919,8 @@ function ems:DropDown(text,text2,list,callback)
     TextButton_Dropdown.Position = UDim2.new(0.91, 0, 0.5, 0)
     
 
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', TextButton_Dropdown)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
+
+
 
 
 
@@ -1392,19 +1277,6 @@ function ems:Slder(text,min,max,de,callback)
     TalabelSlider.TextXAlignment = Enum.TextXAlignment.Left
 
 
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', TalabelSlider)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
-
-
 
 
 
@@ -1678,17 +1550,8 @@ function ems:Ti(text)
     lineframe3.TextSize = 12.000
 
 
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', lineframe3)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
+
+end
 
 function ems:Label(text)
 
@@ -1709,17 +1572,10 @@ function ems:Label(text)
 
 
 
-    local function PUMY_fake_script() -- Title.LocalScript 
-        local script = Instance.new('LocalScript', Labelxd)
-    
-        while true do
-            for c = 1, 360, 1 do
-                wait(0)
-                script.Parent.TextColor3 = Color3.fromHSV(c/360,1,1)
-            end
-        end
-    end
-    coroutine.wrap(PUMY_fake_script)()
+
+
+
+
 
 
 
