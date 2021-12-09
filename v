@@ -215,7 +215,7 @@ function tap:addtap(text)
     TextLabel_Tap.Size = UDim2.new(0, 0, 0, 0)
     TextLabel_Tap.Font = Enum.Font.SourceSans
     TextLabel_Tap.Text = " "
-    TextLabel_Tap.TextColor3 = Color3.fromRGB(255, 0, 95)
+    TextLabel_Tap.TextColor3 = Color3.fromRGB(0, 255, 255)
     TextLabel_Tap.TextSize = 14.000
     TextLabel_Tap.BorderSizePixel = 0
 
@@ -272,7 +272,7 @@ function tap:addtap(text)
     ScolPage.BorderSizePixel = 0
     ScolPage.Size = UDim2.new(0, 395, 0, 324)
     ScolPage.ScrollBarThickness = 3
-    ScolPage.ScrollBarImageColor3 =  Color3.fromRGB(255, 0, 125)
+    ScolPage.ScrollBarImageColor3 =  Color3.fromRGB(0, 255, 255)
 
     MainPage.Name = "MainPage"
     MainPage.Parent = ScolPage
@@ -460,7 +460,7 @@ function ems:Button(text,callback)
     TextLabel_emsTextButton.Size = UDim2.new(0, 0, 0, 0)
     TextLabel_emsTextButton.Font = Enum.Font.GothamSemibold
     TextLabel_emsTextButton.Text = text
-    TextLabel_emsTextButton.TextColor3 = Color3.fromRGB(255, 0, 95)
+    TextLabel_emsTextButton.TextColor3 = Color3.fromRGB(0, 255, 255)
     TextLabel_emsTextButton.TextSize = 10.000
     TextLabel_emsTextButton.BorderSizePixel = 0
 
@@ -597,7 +597,7 @@ function ems:Button1(text,callback)
                     
     MheeFrameStroke1.Thickness = 1
     MheeFrameStroke1.LineJoinMode = Enum.LineJoinMode.Round
-    MheeFrameStroke1.Color = Color3.fromRGB(255, 0 ,95)
+    MheeFrameStroke1.Color = Color3.fromRGB(0, 255 ,255)
     MheeFrameStroke1.Transparency = 0
 
     emsTextButton1.MouseButton1Click:Connect(function()
@@ -661,7 +661,7 @@ function  ems:Toggle(text,de,callback)
     ToggleButton.Position = UDim2.new(0.5, 0, 0.5, 0)
     ToggleButton.Size = UDim2.new(0, 155, 0, 25)
     ToggleButton.Font = Enum.Font.GothamSemibold
-    ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    ToggleButton.TextColor3 = Color3.fromRGB(0, 255, 255)
     ToggleButton.TextSize = 13.000
     ToggleButton.TextWrapped = false
     ToggleButton.Text = ""
@@ -678,7 +678,7 @@ function  ems:Toggle(text,de,callback)
     ToggleButton2.Position = UDim2.new(1, 0, 0.45, 0)
     ToggleButton2.Size = UDim2.new(0, 20, 0, 20)
     ToggleButton2.Font = Enum.Font.GothamSemibold
-    ToggleButton2.TextColor3 = Color3.fromRGB(255, 255, 255)
+    ToggleButton2.TextColor3 = Color3.fromRGB(0, 255, 255)
     ToggleButton2.TextSize = 13.000
     ToggleButton2.TextWrapped = false
     ToggleButton2.Text = ""
@@ -902,7 +902,7 @@ function ems:DropDown(text,text2,list,callback)
 
     DropFrame.Name = "DropFrame"
     DropFrame.Parent = ScolPage2
-    DropFrame.BackgroundColor3 = Color3.fromRGB(255, 0 ,95)
+    DropFrame.BackgroundColor3 = Color3.fromRGB(0, 255 ,255)
     DropFrame.BorderSizePixel = 0
     DropFrame.BackgroundTransparency = 1
     DropFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -1078,7 +1078,7 @@ function ems:DropDown(text,text2,list,callback)
     
     ListFrame.Name = "ListFrame"
     ListFrame.Parent = ScolPage2
-    ListFrame.BackgroundColor3 = Color3.fromRGB(255, 0 ,95)
+    ListFrame.BackgroundColor3 = Color3.fromRGB(0, 255 ,255)
     ListFrame.BorderSizePixel = 0
     ListFrame.BackgroundTransparency = 1
     ListFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -1290,7 +1290,7 @@ end
     listDropButton.Size = UDim2.new(0, 155, 0, 24)
     listDropButton.Font = Enum.Font.GothamSemibold
     listDropButton.Text = tostring(text2)
-    listDropButton.TextColor3 = Color3.fromRGB(255, 0, 95)
+    listDropButton.TextColor3 = Color3.fromRGB(0, 255, 255)
     listDropButton.TextSize = 11.000
     listDropButton.AutoButtonColor = false 
     listDropButton.AnchorPoint = Vector2.new(0.5, 0.5)
