@@ -891,7 +891,7 @@ function ems:DropDown(text,text2,list,callback)
     DropFrame.Parent = ScolPage2
     DropFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     DropFrame.BorderColor3 = Color3.fromRGB(0, 255, 255)
-    DropFrame.BorderSizePixel = 0
+    DropFrame.BorderSizePixel = 1
     DropFrame.BackgroundTransparency = 1
     DropFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
     DropFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
