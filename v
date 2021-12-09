@@ -672,7 +672,7 @@ function  ems:Toggle(text,de,callback)
     local ToggleButton2 = Instance.new("TextButton")
 
     ToggleButton2.Parent = ToggleFrame
-    ToggleButton2.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    ToggleButton2.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
     ToggleButton2.BackgroundTransparency = 1
     ToggleButton2.AnchorPoint = Vector2.new(0.5, 0.5)
     ToggleButton2.Position = UDim2.new(1, 0, 0.45, 0)
@@ -722,7 +722,7 @@ function  ems:Toggle(text,de,callback)
 
     TextButton_2_Toggle.Parent = ToggleButton2
     TextButton_2_Toggle.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
-    TextButton_2_Toggle.BorderColor3 = Color3.fromRGB(0, 255, 255)
+    TextButton_2_Toggle.BorderColor3 = Color3.fromRGB(249, 53, 139)
     TextButton_2_Toggle.BorderSizePixel = 0
     TextButton_2_Toggle.AnchorPoint = Vector2.new(0.5, 0.5)
     TextButton_2_Toggle.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -750,7 +750,7 @@ function  ems:Toggle(text,de,callback)
 
     TextButton_3_Toggle.Parent = TextButton_2_Toggle
     TextButton_3_Toggle.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-    TextButton_3_Toggle.BorderColor3 = Color3.fromRGB(0, 255, 255)
+    TextButton_3_Toggle.BorderColor3 = Color3.fromRGB(255, 0, 95)
     TextButton_3_Toggle.BorderSizePixel = 0
     TextButton_3_Toggle.AnchorPoint = Vector2.new(0.5, 0.5)
     TextButton_3_Toggle.Position = UDim2.new(0.5, 0, 0.5, 0)
