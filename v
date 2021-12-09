@@ -952,7 +952,7 @@ function ems:DropDown(text,text2,list,callback)
     
     FrameDrop.Name = "FrameDrop"
     FrameDrop.Parent = DropFrame
-    FrameDrop.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+    FrameDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     FrameDrop.BorderColor3 = Color3.fromRGB(0, 255, 255)
     FrameDrop.BorderSizePixel = 0
     FrameDrop.BackgroundTransparency = 1
