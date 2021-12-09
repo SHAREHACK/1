@@ -656,12 +656,13 @@ function  ems:Toggle(text,de,callback)
 
     ToggleButton.Parent = ToggleFrame
     ToggleButton.BackgroundColor3 = Color3.fromRGB( 0, 0, 60)
+    ToggleButton.BorderColor3 = Color3.fromRGB(0, 255, 255)
     ToggleButton.BackgroundTransparency = 1
     ToggleButton.AnchorPoint = Vector2.new(0, 0.5)
     ToggleButton.Position = UDim2.new(0.5, 0, 0.5, 0)
     ToggleButton.Size = UDim2.new(0, 155, 0, 25)
     ToggleButton.Font = Enum.Font.GothamSemibold
-    ToggleButton.TextColor3 = Color3.fromRGB(0, 255, 255)
+    ToggleButton.TextColor3 = Color3.fromRGB(0, 0, 60)
     ToggleButton.TextSize = 13.000
     ToggleButton.TextWrapped = false
     ToggleButton.Text = ""
@@ -673,12 +674,13 @@ function  ems:Toggle(text,de,callback)
 
     ToggleButton2.Parent = ToggleFrame
     ToggleButton2.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
+    ToggleButton2.BorderColor3 = Color3.fromRGB(0, 255, 255)
     ToggleButton2.BackgroundTransparency = 1
     ToggleButton2.AnchorPoint = Vector2.new(0.5, 0.5)
     ToggleButton2.Position = UDim2.new(1, 0, 0.45, 0)
     ToggleButton2.Size = UDim2.new(0, 20, 0, 20)
     ToggleButton2.Font = Enum.Font.GothamSemibold
-    ToggleButton2.TextColor3 = Color3.fromRGB(0, 255, 255)
+    ToggleButton2.TextColor3 = Color3.fromRGB(0, 0, 60)
     ToggleButton2.TextSize = 13.000
     ToggleButton2.TextWrapped = false
     ToggleButton2.Text = ""
@@ -690,6 +692,7 @@ function  ems:Toggle(text,de,callback)
     TextLabelToggle.Parent = ToggleButton
     TextLabelToggle.Name = "TextLabelToggle"
     TextLabelToggle.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
+    TextLabelToggle.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabelToggle.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabelToggle.Position = UDim2.new(0.64, 0, 0.4, 0)
     TextLabelToggle.Size =  UDim2.new(0, 150, 0, 40)
@@ -728,7 +731,7 @@ function  ems:Toggle(text,de,callback)
     local TextButton_2_Toggle = Instance.new("TextButton")
 
     TextButton_2_Toggle.Parent = ToggleButton2
-    TextButton_2_Toggle.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+    TextButton_2_Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
     TextButton_2_Toggle.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextButton_2_Toggle.BorderSizePixel = 0
     TextButton_2_Toggle.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -758,7 +761,7 @@ function  ems:Toggle(text,de,callback)
 
 
     TextButton_3_Toggle.Parent = TextButton_2_Toggle
-    TextButton_3_Toggle.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+    TextButton_3_Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
     TextButton_3_Toggle.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextButton_3_Toggle.BorderSizePixel = 0
     TextButton_3_Toggle.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -981,7 +984,7 @@ function ems:DropDown(text,text2,list,callback)
 
     TextLabelDrop2.Parent = DropButton
     TextLabelDrop2.Name = "TextLabelDrop"
-    TextLabelDrop2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabelDrop2.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
     TextLabelDrop2.BorderColor3 = Color3.fromRGB(0, 255, 255)
     TextLabelDrop2.BackgroundTransparency = 1
     TextLabelDrop2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1027,7 +1030,7 @@ function ems:DropDown(text,text2,list,callback)
     local TextButton_Dropdown = Instance.new("TextButton")
 
     TextButton_Dropdown.Parent = DropButton
-    TextButton_Dropdown.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+    TextButton_Dropdown.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
     TextButton_Dropdown.BorderSizePixel = 0
     TextButton_Dropdown.Size = UDim2.new(0, 22, 0, 24)
     TextButton_Dropdown.Font = Enum.Font.SourceSans
